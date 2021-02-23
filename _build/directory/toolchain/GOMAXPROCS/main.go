@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	const GOMAXPROCS = 4 //A
+	const GOMAXPROCS = 1 //A
 	runtime.GOMAXPROCS(GOMAXPROCS)
 
 	var wg sync.WaitGroup
